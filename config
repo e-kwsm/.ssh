@@ -1,0 +1,6 @@
+Include ~/.ssh/config.d/*.conf
+
+Host *
+	IdentitiesOnly yes
+	ForwardX11 yes
+	#ServerAliveInterval 60
